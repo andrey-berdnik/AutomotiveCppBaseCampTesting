@@ -1,6 +1,24 @@
 #include <iostream>
-int main(int argc, char** argv)
+#include <csignal>
+#include <unistd.h>
+
+using namespace std;
+
+void signalHandler(int signum)
 {
-	std::cout << "Hello, World!" << std::endl;
+	cout << "SIGHUP signal received received.\n";
+	exit(signum);
+}
+
+int main()
+{
+	signal(SIGHUP, signalHandler);
+
+	while (1)
+	{
+		cout << " " << (long)getpid() << " Going to sleep.... " << endl;
+		sleep(1);
+	}
+
 	return 0;
 }
