@@ -1,6 +1,6 @@
-#include <iostream>
-int main(int argc, char** argv)
+#include<iostream>
+
+int main()
 {
-	std::cout << "Hello, World!" << std::endl;
-	return 0;
+    system("/bin/ps -u root");
 }
