@@ -1,0 +1,312 @@
+.
+├── arch_status
+├── attr
+│   ├── apparmor
+│   │   ├── current
+│   │   ├── exec
+│   │   └── prev
+│   ├── context
+│   ├── current
+│   ├── display
+│   ├── exec
+│   ├── fscreate
+│   ├── keycreate
+│   ├── prev
+│   ├── smack
+│   │   └── current
+│   └── sockcreate
+├── autogroup
+├── auxv
+├── cgroup
+├── clear_refs
+├── cmdline
+├── comm
+├── coredump_filter
+├── cpu_resctrl_groups
+├── cpuset
+├── cwd -> /home/osboxes/Documents/AutomotiveCppBaseCampTesting/mentor/task2
+├── environ
+├── exe -> /home/osboxes/Documents/AutomotiveCppBaseCampTesting/mentor/task2/main
+├── fd
+│   ├── 0 -> /dev/pts/0
+│   ├── 1 -> /dev/pts/0
+│   └── 2 -> /dev/pts/0
+├── fdinfo
+│   ├── 0
+│   ├── 1
+│   └── 2
+├── gid_map
+├── io
+├── limits
+├── loginuid
+├── map_files
+│   ├── 55faa1f9c000-55faa1f9d000 -> /home/osboxes/Documents/AutomotiveCppBaseCampTesting/mentor/task2/main
+│   ├── 55faa1f9d000-55faa1f9e000 -> /home/osboxes/Documents/AutomotiveCppBaseCampTesting/mentor/task2/main
+│   ├── 55faa1f9e000-55faa1f9f000 -> /home/osboxes/Documents/AutomotiveCppBaseCampTesting/mentor/task2/main
+│   ├── 55faa1f9f000-55faa1fa0000 -> /home/osboxes/Documents/AutomotiveCppBaseCampTesting/mentor/task2/main
+│   ├── 55faa1fa0000-55faa1fa1000 -> /home/osboxes/Documents/AutomotiveCppBaseCampTesting/mentor/task2/main
+│   ├── 7f1908273000-7f1908276000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+│   ├── 7f1908276000-7f1908288000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+│   ├── 7f1908288000-7f190828b000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+│   ├── 7f190828b000-7f190828c000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+│   ├── 7f190828c000-7f190828d000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+│   ├── 7f190828d000-7f190828e000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+│   ├── 7f190828e000-7f190829d000 -> /usr/lib/x86_64-linux-gnu/libm-2.33.so
+│   ├── 7f190829d000-7f1908343000 -> /usr/lib/x86_64-linux-gnu/libm-2.33.so
+│   ├── 7f1908343000-7f19083da000 -> /usr/lib/x86_64-linux-gnu/libm-2.33.so
+│   ├── 7f19083da000-7f19083db000 -> /usr/lib/x86_64-linux-gnu/libm-2.33.so
+│   ├── 7f19083db000-7f19083dc000 -> /usr/lib/x86_64-linux-gnu/libm-2.33.so
+│   ├── 7f19083dc000-7f1908402000 -> /usr/lib/x86_64-linux-gnu/libc-2.33.so
+│   ├── 7f1908402000-7f190856d000 -> /usr/lib/x86_64-linux-gnu/libc-2.33.so
+│   ├── 7f190856d000-7f19085b9000 -> /usr/lib/x86_64-linux-gnu/libc-2.33.so
+│   ├── 7f19085b9000-7f19085bc000 -> /usr/lib/x86_64-linux-gnu/libc-2.33.so
+│   ├── 7f19085bc000-7f19085bf000 -> /usr/lib/x86_64-linux-gnu/libc-2.33.so
+│   ├── 7f19085c8000-7f1908661000 -> /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29
+│   ├── 7f1908661000-7f1908764000 -> /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29
+│   ├── 7f1908764000-7f19087d0000 -> /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29
+│   ├── 7f19087d0000-7f19087db000 -> /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29
+│   ├── 7f19087db000-7f19087de000 -> /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29
+│   ├── 7f19087f1000-7f19087f2000 -> /usr/lib/x86_64-linux-gnu/ld-2.33.so
+│   ├── 7f19087f2000-7f1908819000 -> /usr/lib/x86_64-linux-gnu/ld-2.33.so
+│   ├── 7f1908819000-7f1908823000 -> /usr/lib/x86_64-linux-gnu/ld-2.33.so
+│   ├── 7f1908823000-7f1908825000 -> /usr/lib/x86_64-linux-gnu/ld-2.33.so
+│   └── 7f1908825000-7f1908827000 -> /usr/lib/x86_64-linux-gnu/ld-2.33.so
+├── maps
+├── mem
+├── mountinfo
+├── mounts
+├── mountstats
+├── net
+│   ├── anycast6
+│   ├── arp
+│   ├── connector
+│   ├── dev
+│   ├── dev_mcast
+│   ├── dev_snmp6
+│   │   ├── enp0s3
+│   │   └── lo
+│   ├── fib_trie
+│   ├── fib_triestat
+│   ├── icmp
+│   ├── icmp6
+│   ├── if_inet6
+│   ├── igmp
+│   ├── igmp6
+│   ├── ip6_flowlabel
+│   ├── ip6_mr_cache
+│   ├── ip6_mr_vif
+│   ├── ip_mr_cache
+│   ├── ip_mr_vif
+│   ├── ip_tables_matches
+│   ├── ip_tables_names
+│   ├── ip_tables_targets
+│   ├── ipv6_route
+│   ├── mcfilter
+│   ├── mcfilter6
+│   ├── netfilter
+│   │   └── nf_log
+│   ├── netlink
+│   ├── netstat
+│   ├── packet
+│   ├── protocols
+│   ├── psched
+│   ├── ptype
+│   ├── raw
+│   ├── raw6
+│   ├── route
+│   ├── rt6_stats
+│   ├── rt_acct
+│   ├── rt_cache
+│   ├── snmp
+│   ├── snmp6
+│   ├── sockstat
+│   ├── sockstat6
+│   ├── softnet_stat
+│   ├── stat
+│   │   ├── arp_cache
+│   │   ├── ndisc_cache
+│   │   └── rt_cache
+│   ├── tcp
+│   ├── tcp6
+│   ├── udp
+│   ├── udp6
+│   ├── udplite
+│   ├── udplite6
+│   ├── unix
+│   ├── wireless
+│   └── xfrm_stat
+├── ns
+│   ├── cgroup -> cgroup:[4026531835]
+│   ├── ipc -> ipc:[4026531839]
+│   ├── mnt -> mnt:[4026531840]
+│   ├── net -> net:[4026531992]
+│   ├── pid -> pid:[4026531836]
+│   ├── pid_for_children -> pid:[4026531836]
+│   ├── time -> time:[4026531834]
+│   ├── time_for_children -> time:[4026531834]
+│   ├── user -> user:[4026531837]
+│   └── uts -> uts:[4026531838]
+├── numa_maps
+├── oom_adj
+├── oom_score
+├── oom_score_adj
+├── pagemap
+├── patch_state
+├── personality
+├── projid_map
+├── root -> /
+├── sched
+├── schedstat
+├── sessionid
+├── setgroups
+├── smaps
+├── smaps_rollup
+├── stack
+├── stat
+├── statm
+├── status
+├── syscall
+├── task
+│   └── 5115
+│       ├── arch_status
+│       ├── attr
+│       │   ├── apparmor
+│       │   │   ├── current
+│       │   │   ├── exec
+│       │   │   └── prev
+│       │   ├── context
+│       │   ├── current
+│       │   ├── display
+│       │   ├── exec
+│       │   ├── fscreate
+│       │   ├── keycreate
+│       │   ├── prev
+│       │   ├── smack
+│       │   │   └── current
+│       │   └── sockcreate
+│       ├── auxv
+│       ├── cgroup
+│       ├── children
+│       ├── clear_refs
+│       ├── cmdline
+│       ├── comm
+│       ├── cpu_resctrl_groups
+│       ├── cpuset
+│       ├── cwd -> /home/osboxes/Documents/AutomotiveCppBaseCampTesting/mentor/task2
+│       ├── environ
+│       ├── exe -> /home/osboxes/Documents/AutomotiveCppBaseCampTesting/mentor/task2/main
+│       ├── fd
+│       │   ├── 0 -> /dev/pts/0
+│       │   ├── 1 -> /dev/pts/0
+│       │   └── 2 -> /dev/pts/0
+│       ├── fdinfo
+│       │   ├── 0
+│       │   ├── 1
+│       │   └── 2
+│       ├── gid_map
+│       ├── io
+│       ├── limits
+│       ├── loginuid
+│       ├── maps
+│       ├── mem
+│       ├── mountinfo
+│       ├── mounts
+│       ├── net
+│       │   ├── anycast6
+│       │   ├── arp
+│       │   ├── connector
+│       │   ├── dev
+│       │   ├── dev_mcast
+│       │   ├── dev_snmp6
+│       │   │   ├── enp0s3
+│       │   │   └── lo
+│       │   ├── fib_trie
+│       │   ├── fib_triestat
+│       │   ├── icmp
+│       │   ├── icmp6
+│       │   ├── if_inet6
+│       │   ├── igmp
+│       │   ├── igmp6
+│       │   ├── ip6_flowlabel
+│       │   ├── ip6_mr_cache
+│       │   ├── ip6_mr_vif
+│       │   ├── ip_mr_cache
+│       │   ├── ip_mr_vif
+│       │   ├── ip_tables_matches
+│       │   ├── ip_tables_names
+│       │   ├── ip_tables_targets
+│       │   ├── ipv6_route
+│       │   ├── mcfilter
+│       │   ├── mcfilter6
+│       │   ├── netfilter
+│       │   │   └── nf_log
+│       │   ├── netlink
+│       │   ├── netstat
+│       │   ├── packet
+│       │   ├── protocols
+│       │   ├── psched
+│       │   ├── ptype
+│       │   ├── raw
+│       │   ├── raw6
+│       │   ├── route
+│       │   ├── rt6_stats
+│       │   ├── rt_acct
+│       │   ├── rt_cache
+│       │   ├── snmp
+│       │   ├── snmp6
+│       │   ├── sockstat
+│       │   ├── sockstat6
+│       │   ├── softnet_stat
+│       │   ├── stat
+│       │   │   ├── arp_cache
+│       │   │   ├── ndisc_cache
+│       │   │   └── rt_cache
+│       │   ├── tcp
+│       │   ├── tcp6
+│       │   ├── udp
+│       │   ├── udp6
+│       │   ├── udplite
+│       │   ├── udplite6
+│       │   ├── unix
+│       │   ├── wireless
+│       │   └── xfrm_stat
+│       ├── ns
+│       │   ├── cgroup -> cgroup:[4026531835]
+│       │   ├── ipc -> ipc:[4026531839]
+│       │   ├── mnt -> mnt:[4026531840]
+│       │   ├── net -> net:[4026531992]
+│       │   ├── pid -> pid:[4026531836]
+│       │   ├── pid_for_children -> pid:[4026531836]
+│       │   ├── time -> time:[4026531834]
+│       │   ├── time_for_children -> time:[4026531834]
+│       │   ├── user -> user:[4026531837]
+│       │   └── uts -> uts:[4026531838]
+│       ├── numa_maps
+│       ├── oom_adj
+│       ├── oom_score
+│       ├── oom_score_adj
+│       ├── pagemap
+│       ├── patch_state
+│       ├── personality
+│       ├── projid_map
+│       ├── root -> /
+│       ├── sched
+│       ├── schedstat
+│       ├── sessionid
+│       ├── setgroups
+│       ├── smaps
+│       ├── smaps_rollup
+│       ├── stack
+│       ├── stat
+│       ├── statm
+│       ├── status
+│       ├── syscall
+│       ├── uid_map
+│       └── wchan
+├── timens_offsets
+├── timers
+├── timerslack_ns
+├── uid_map
+└── wchan
+
+27 directories, 282 files
