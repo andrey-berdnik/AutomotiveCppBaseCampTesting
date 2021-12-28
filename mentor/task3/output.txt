@@ -1,0 +1,27 @@
+
+--------
+Stack 
+140732757292364	0x7ffee601b54c	 local var 
+140732757292360	0x7ffee601b548	 register local var 
+140732757292344	0x7ffee601b538	 dynamic array ptr (in func)
+140279650737296	0x7f9566c05c90	 dynamic array  (in func)
+140279650737248	0x7f9566c05c60	 dynamic array  (not in func)
+--------
+--------
+Heap
+--------
+--------
+Uninitialized data(bss)
+4458463452	0x109bec0dc	 static globalvar 
+4458463448	0x109bec0d8	 static local var 
+4458463436	0x109bec0cc	 global var 
+--------
+--------
+Initialized data
+4458463432	0x109bec0c8	 static globalvar inited
+4458463428	0x109bec0c4	 static local var inited
+4458463424	0x109bec0c0	 global var inited
+--------
+--------
+Text
+--------
